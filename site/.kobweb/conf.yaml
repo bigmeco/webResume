@@ -1,0 +1,14 @@
+site:
+  title: "WebResume"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/bigmeco.js"
+      api: "build/libs/bigmeco.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/bigmeco.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
